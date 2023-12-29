@@ -1,52 +1,63 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    user-select: none;
-  }
-  
-  body {
-    background-color: rgb(218, 146, 194);
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  div {
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: aliceblue;
-  }
-  
-  button {
-    height: 4rem;
-    width: 10rem;
-    font-size: 1.5rem;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 1px 1px 5px black;
-    background-color: white;
-    cursor: pointer;
-    margin: 0.5rem;
-  }
-  
-  #runaway-btn {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 4rem;
-    width: 10rem;
-    font-size: 1.5rem;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 1px 1px 5px black;
-    background-color: white;
-  }
-  
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  background-color: rgb(218, 146, 194);
+  font-family: 'Mochiy Pop One', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: aliceblue;
+}
+
+button {
+  height: 4rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  background-color: white;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+#one {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  box-shadow: 1px 1px 5px black;
+}
+
+#runaway-btn {
+  position: absolute;
+  top: 65%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  height: 4rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
